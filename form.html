@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Севостьянова - Анкета</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<form class="my-form" method="post" action="#">
+<h3>Анкета</h3>
+
+<input
+class="my-form-text-input"
+type="text"
+name="forname"
+placeholder="Фамилия"
+>
+<input
+class="my-form-text-input"
+type="text"
+name="name"
+placeholder="Имя"
+>
+
+<select class="my-form-country-select" name="country">
+<option value="ru" selected>Россия</option>
+<option value="kz">Казахстан</option>
+<option value="be">Белорусь</option>
+<option value="us">США</option>
+<option value="uk">Великобритания</option>
+</select>
+
+<textarea class="my-form-about" name="" id="" cols="30" rows="10" placeholder="Давным давно..."></textarea>
+
+<label for="">Пол</label>
+
+<input
+class="my-form-radio"
+type="radio"
+name="gender"
+value="male"
+>
+
+<input
+class="my-form-radio"
+type="radio"
+name="gender"
+value="female"
+>
+<input
+class="my-form-date"
+type="datetime-local"
+name="birchday"
+min="1900-01-01T00:00"
+max="2090-01-01T00:00"
+value="2023-09-30T00:00"
+/>
+
+<input
+class="my-form-email-input"
+type="email"
+name="email"
+placeholder="example@my-project.loc"
+/>
+
+<label for="">Красный</label>
+
+<input
+class="my-form-checkbox"
+type="checkbox"
+name="red"
+>
+<label for="">Зелёный</label>
+<input
+class="my-form-checkbox"
+type="checkbox"
+name="green"
+>
+
+<label for="">Синий</label>
+<input
+class="my-form-checkbox"
+type="checkbox"
+name="blue"
+>
+</form>
+</body>
+</html>
